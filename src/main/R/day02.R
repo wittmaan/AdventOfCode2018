@@ -22,7 +22,7 @@ counts[, lapply(.SD, sum)][, two_times * three_times]
 
 ## --- Part two ---
 
-input <- c("abcde", "fghij", "klmno", "pqrst", "fguij", "axcye", "wvxyz")
+#input <- c("abcde", "fghij", "klmno", "pqrst", "fguij", "axcye", "wvxyz")
 input <- strsplit(sort(input), "")
 
 for (i in 2:length(input)) {
